@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position uygulama</title>
+    <style>
+        .box {
+            width: 120px;
+            height: 120px;
+        }
+
+        #first {
+            background-color: red;
+        }
+        #second {
+            background-color: blue;
+            position: relative;
+            top: 50px;
+            left: 30px;
+        }
+        #third {
+            background-color: green;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">box 2</div>
+    <div class="box" id="third">box 3</div>
+    
+</body>
+</html>

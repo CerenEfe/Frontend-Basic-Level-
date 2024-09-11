@@ -1,0 +1,19 @@
+#container {
+    width: 1140px;
+    background-color: aqua;
+}
+#blog-text-container {
+    width: 75%;
+    background-color: brown;
+    float: left;
+}
+
+#other-container {
+    width: 25%;
+    background-color: bisque;
+    float: left;
+}
+
+#auther-admin {
+    border: 1px solid;
+}
