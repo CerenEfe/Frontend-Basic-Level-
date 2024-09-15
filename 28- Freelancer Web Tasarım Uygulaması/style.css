@@ -116,14 +116,23 @@ header h2{
     font-weight: 300;
 }
 
-.star-light {
+hr.star-light {
+    color: #fff;
+}
+
+hr.star-dark {
+    color: #2C3E50;
+}
+
+.star-light, .star-dark {
     border: none;
-    border-top: .4rem solid #fff;
+    border-top: .4rem solid;
     max-width: 25rem;
     margin: 2.5rem auto;
     overflow: visible;
     height: 0;
 }
+
 
 .fa-star{
     color: #fff;
@@ -133,4 +142,26 @@ header h2{
     padding: 0 8px;
     top: -44px;
     background-color: #18BC9C;
+}
+
+#Portfolio .fa-star{
+    color: #2C3E50;
+    font-size: 3.2rem;
+    font-weight: 900;
+    position: relative;
+    padding: 0 8px;
+    top: -44px;
+    background-color: #fff;
+}
+
+#Portfolio {
+    height: 700px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+#Portfolio h2 {
+    font-size: 4.8rem;
+    color: #2C3E50;
 }
