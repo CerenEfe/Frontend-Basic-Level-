@@ -16,12 +16,22 @@ body {
     background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700px;
+    font-family: Montserrat;
+}
+
 a {
     text-decoration: none;
 }
 
 ul{
     list-style-type: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .clearfix::after {
@@ -43,11 +53,13 @@ ul{
 }
 
 nav {
+    width: 100%;
     font-family: Montserrat;
     background-color: #2C3E50;
     color: #fff;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+    position: fixed;
 }
 
 #logo-box {
@@ -82,4 +94,16 @@ nav {
 
 #nav-links .nav-link:hover{
     color: #18bc9c;
+}
+
+header {
+    background-color: #18BC9C;
+    height: 1000px;
+    padding-top: calc(112px + 10rem);
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 7.6rem;
 }
