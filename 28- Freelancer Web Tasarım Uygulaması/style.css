@@ -241,9 +241,13 @@ section {
 
 }
 
+.btn-large {
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+
 .btn {
     margin-top: 4rem;
-    font-size: 2rem;
     font-weight: 400;
     display: inline-block;
     border: 2px solid transparent;
@@ -252,11 +256,19 @@ section {
     transition: all .5s;
 }
 
+.btn-social {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
 .btn-outline {
     color: #fff;
     border-color: #fff;
     background-color: transparent;
-    padding: 2.2rem 1.6rem;
+    
 }
 
 .btn-outline:hover{
@@ -277,9 +289,6 @@ section {
 
 }
 
-#contact {
-    
-}
 
 #contact h2 {
     font-size: 4.8rem;
@@ -310,15 +319,6 @@ section {
     outline: 0;
 }
 
-
-
-
-
-
-
-
-
-
 #contact .fa-star{
     color: #2C3E50;
     font-size: 3.2rem;
@@ -327,4 +327,35 @@ section {
     padding: 0 8px;
     top: -44px;
     background-color: #fff;
+}
+
+
+footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 2.4rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.copyright {
+    background-color: #1a252f;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: #fff;
+    text-align: center;
 }
