@@ -239,3 +239,38 @@ section {
     padding-bottom: 10rem;
 
 }
+
+.btn {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid transparent;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-outline {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    padding: 2.2rem 1.6rem;
+}
+
+.btn-outline:hover{
+    color: #212529;
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    padding: 1.2rem 1rem;
+}
+
+.btn-primary:hover{
+    background-color: #128f76;
+    border-color: #128f76;
+
+}
