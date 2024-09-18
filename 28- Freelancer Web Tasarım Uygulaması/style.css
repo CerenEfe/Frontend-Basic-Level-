@@ -146,6 +146,38 @@ nav {
     color: #18bc9c;
 }
 
+#nav-links .nav-icon {
+    display: none;
+}
+
+@media (max-width:992px) {
+    #logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links {
+        float: none;
+    }
+
+    #nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    #nav-links li {
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 3rem;
+    }
+}
+
 header {
     background-color: #18BC9C;
     height: 1000px;
